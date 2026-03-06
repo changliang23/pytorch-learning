@@ -1,35 +1,44 @@
-流程题
-1. 构造语料
-2. Tokenizer
-3. 定义 Transformer
-4. 预训练 (LM)
-5. SFT (指令微调)
-6. RLHF (奖励模型 + PPO)
-7. 推理
-8. 保存导出
+Project Description
+Workflow
+Corpus Construction
 
-目录结构
+Tokenizer
+
+Transformer Definition
+
+Pre-training (LM)
+
+SFT (Instruction Fine-tuning)
+
+RLHF (Reward Model + PPO)
+
+Inference
+
+Model Export
+
+Directory Structure  
 pytorch-learning/
- ├── data_pretrain.txt
- ├── data_sft.json
- ├── tokenizer.py
- ├── model.py
- ├── pretrain.py
- ├── sft.py
- ├── rlhf.py
- ├── infer.py
- ├── export.py
- └── main.py
+ ├── data_pretrain.txt    # Pre-training data  
+ ├── data_sft.json        # Instruction fine-tuning data  
+ ├── tokenizer.py         # Tokenizer  
+ ├── model.py             # Mini GPT model definition  
+ ├── pretrain.py          # Pre-training script  
+ ├── sft.py               # Instruction fine-tuning script  
+ ├── rlhf.py              # RLHF training script  
+ ├── infer.py             # Inference script  
+ ├── export.py            # Model export script  
+ └── main.py              # Main entry point  
 
-DAY 1(26.2.12)
-基础版，跑通全流程
+Development Plan  
+DAY 1 (Feb 12, 2026)  
+Basic Version - Complete the full pipeline
 
-DAY 2
-Transformer 多头注意力版
+DAY 2  
+Multi-head Attention Transformer - Implement complete multi-head attention mechanism
 
+DAY 3  
+LoRA Fine-tuning Version - Add Low-Rank Adaptation fine-tuning
 
-DAY 3 
-LoRA 微调版
+DAY 4  
+RLHF Version - Add Reinforcement Learning from Human Feedback based on PPO
 
-DAY 4
-加入 RLHF（PPO）版
