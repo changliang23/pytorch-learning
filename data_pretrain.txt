@@ -1,4 +1,3 @@
 hello world
-machine learning is great
-pytorch is powerful
-你好 我是AI
+hello ai
+good morning

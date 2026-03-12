@@ -1,20 +1,13 @@
 Project Description
 Workflow
-Corpus Construction
-
-Tokenizer
-
-Transformer Definition
-
-Pre-training (LM)
-
-SFT (Instruction Fine-tuning)
-
-RLHF (Reward Model + PPO)
-
-Inference
-
-Model Export
+1. Prepare data  
+2. Tokenizer  
+3. Transformer Definition  
+4. Pre-training (LM)  
+5. SFT (Instruction Fine-tuning)  
+6. RLHF (Reward Model + PPO)  
+7. Inference  
+8. Model Export  
 
 Directory Structure  
 pytorch-learning/
